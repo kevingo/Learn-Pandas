@@ -1,5 +1,22 @@
 # Learn-Pandas
 
+## Snippet
+
+- Read csv
+```python
+pd.read_csv('./data.csv')
+```
+
+- 取得前 N 筆 dataframe 欄位資料
+```python
+df[:n]
+```
+
+- 取得前某一欄位前 N 筆資料
+```python
+df['field'][:n]
+```
+
 ## Resources
 
 - [Useful Pandas Snippets](https://gist.github.com/bsweger/e5817488d161f37dcbd2)
